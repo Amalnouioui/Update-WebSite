@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+#contact {
+	background-color: rgba(0,0,0,1.00);
+	background-size: cover;
+	-moz-background-size: cover;
+    -webkit-background-size: cover;	
+	background-position: center center;
+	background-image: url(../img/fond_contact.jpg);
+}
+#contact article {
+	text-align: center;
+}
+#contact .contact {
+	display: flex;
+    flex-flow: row wrap;
+	width: 100%;
+}
+#contact .contact div {
+	flex: auto;
+	margin: 15px 0px 15px 0px; 
+}
+
+#contact .form { width: 65%; }
+
+#contact .icons_cont { width: 35%; }
+#contact .icons_cont div {
+	display: inline-flex;
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+#contact .icons_cont div img,
+#contact .icons_resx div img {
+	height: 35px;
+	padding: 5px;
+	margin: 0px;
+	border: 2px solid rgba(255,255,255,0.30);
+	background-color: rgba(0,60,130,0.00);
+	-moz-border-radius:		35px;
+	-webkit-border-radius:	35px;
+	border-radius:			35px;
+}
+#contact .icons_cont div p {
+	font-family: Arial, sans-serif;
+	margin: auto 0px auto 10px;
+	line-height: 1.5;
+	text-align: left;
+}
+#contact .icons_cont div p span {
+	color: rgba(255,255,255,0.50);
+}
+
+#contact .icons_resx {
+	display: flex;
+    flex-flow: row wrap;
+	width: 280px;
+	margin: auto;
+}
+#contact .icons_resx div {
+	flex: auto;
+	width: 23%;
+	margin: 0px 1% auto 1%;
+	text-align: center;
+	cursor: pointer;
+}
+#contact .icons_resx div img {
+	height: 35px;
+}
+
+form {  }
+.input_txt_cont {
+	width: 96%;
+	border: none;
+	font-family: dinRegular, sans-serif;
+	font-size: 11pt;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,60,130,0.80);
+	margin: 0px 0px 1px 0px;
+	padding: 5px 2% 5px 2%;
+}
+.input_txt_cont:hover, 
+.input_txt_cont:focus/*, .input_txt_cont:valid*/ {
+	background-color: rgba(0,60,130,0.95);
+}
+.input_but_cont {
+	width: 150px;
+	padding: 7px;
+	margin: 5px 0px 0px 0px;
+	border: none;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background-color: rgba(0,60,130,1.00);
+	font-family: dinBold, sans-serif;
+	font-weight: bolder;
+	font-size: 14pt;
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+	/**/		
+}
+@media screen and (max-width:768px) {
+	#contact .form { width: 56%; }
+	#contact .icons_cont { width: 44%; }		
+}
+@media screen and (max-width:425px) {
+	#contact .form { width: 100%; }
+	#contact .icons_cont { width: 100%; }		
+}
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 19:50:30 Aug 19, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:10:40 Mar 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 1824.431 (3)
+  load_resource: 224.918
+  esindex: 0.011
+  RedisCDXSource: 17.668
+  captures_list: 1866.568
+  PetaboxLoader3.datanode: 1839.755 (4)
+  exclusion.robots: 0.297
+  PetaboxLoader3.resolve: 179.961
+  exclusion.robots.policy: 0.27
+  CDXLines.iter: 20.76 (3)
+*/

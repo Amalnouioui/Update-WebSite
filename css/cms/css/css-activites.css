@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+#activities {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: rgba(0,100,175,1.00);
+}
+#activities h1 {
+	margin: 0px;
+}
+#activities titres {
+	display: block;	
+	margin: auto;	
+}
+#activities titres h1 {	
+	margin-top: -200px;
+	margin-bottom: 20px;
+	
+}
+#activities titres h4 {
+	position: relative;
+	padding: 10px 0px 10px 25px;
+	margin: 0px;
+	font-family: dinBold, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: rgba(250,190,20,1.00);
+	cursor: pointer;
+	opacity: 0.8;
+}
+#activities titres h4 point {
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 11px;
+	left: 0px;
+	border: 2px solid rgba(250,190,20,1.00);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#activities article {
+	display: none;
+    flex-flow: row wrap;
+	width: 800px;
+	height: 110%;
+	margin: auto;
+	padding: 0px;
+}
+#activities article div {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 330px;
+	margin: auto 0px 0px auto;
+	background-size:			cover;
+	-moz-background-size:		cover;
+    -webkit-background-size:	cover;	
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#activities article div h3 {
+	position: absolute;
+	margin: 190px auto auto 20px;
+	font-family: dinBold, sans-serif;
+	font-size: 50pt;
+	line-height: 0.85;
+	font-weight: bold;
+	color: rgba(255,255,255,0.85);			
+}
+#activities article p {
+	height: 220px;
+	margin: 20px auto auto 0px;
+	overflow-y: auto;
+}
+#activities article p strong {
+	display: block;
+	margin: 15px 0px 5px 0px;
+	font-family: dinBold, sans-serif;
+	color: rgba(0,0,0,0.90);
+}
+#activities article p span {
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width:1024px) {
+	#activities article { width: 700px; }		
+}
+@media screen and (max-width:768px) {
+	#activities article { width: 500px; }
+	#activities article div h3 { font-size: 45pt; margin: 150px auto auto 20px; }
+	#activities article div { height: 280px; }
+}
+@media screen and (max-width:425px) {
+	#activities titres { display: none; }
+	#activities article {
+		display: block;
+		flex-flow: column;
+		width: 90%;
+		height: auto;
+		margin: 50px auto 0px auto;
+	}
+	#activities article div {
+		height: 150px;
+		margin: 0px 0px 0px 0px;		
+	}
+	#activities article div h3 {
+		margin: 80px auto auto 20px;
+		font-size: 26pt;	  
+	}
+	#activities article p {
+		height: auto;
+		margin: 20px auto auto 0px;
+		overflow-y: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 20:03:32 Aug 19, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:10:32 Mar 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.341
+  CDXLines.iter: 19.763 (3)
+  RedisCDXSource: 1.133
+  captures_list: 117.625
+  esindex: 0.016
+  LoadShardBlock: 93.05 (3)
+  PetaboxLoader3.resolve: 33.209
+  PetaboxLoader3.datanode: 123.976 (4)
+  exclusion.robots: 0.358
+  load_resource: 100.346
+*/

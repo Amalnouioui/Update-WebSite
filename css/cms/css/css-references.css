@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+#references {
+	background-color: rgba(230,30,30,1.00);
+	text-align: center;
+}
+#references article {
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;	
+}
+#references article h1 {
+	margin: 0px 0px 15px 0px;
+}
+#references article h2 {
+	width: 150px;
+	margin: 0px auto 0px auto;
+	padding: 2px 0px 0px 0px;
+	background-color: rgba(250,190,20,0.80);
+	-moz-border-radius:		20px;
+	-webkit-border-radius:	20px;
+	border-radius:			20px;
+	font-family: Arial, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: rgba(0,0,0,1.00);
+	cursor: pointer;
+}
+#references article h3 {
+	width: 1px;
+	height: 8px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	font-weight: lighter;
+	background-color: rgba(255,255,255,0.50);
+}
+#references article bloc_ref {
+	display: none;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.00)
+}
+#references article bloc_ref div {
+	/*flex: auto;*/
+	width: 40%;
+	margin: 0px auto 0px auto;
+	padding: 10px 10px 5px 10px;
+	/*border: 1px dashed rgba(255,255,255,0.90);*/
+	background-color: rgba(183, 12, 12,1.00);
+	-moz-border-radius:		5px;
+	-webkit-border-radius:	5px;
+	border-radius:			5px;
+	text-align: left;
+}
+#references article #R2007 div { width: 23%; }
+#references article #R2010 div { width: 23%; }
+#references article #R2013 div { width: 18%; }
+#references article bloc_ref div p {
+	display: block;
+	width: 100%;
+	margin: 0px 0px 4px 0px;
+	padding: 0px;
+	font-size: 11pt;
+	color: rgba(255,255,255,0.90);
+	text-align: center;
+}
+#references article bloc_ref div p strong {
+	font-family: dinBold, sans-serif;
+	font-weight: bold;
+	color: rgba(250,190,20,1.00);
+	padding-right: 5px;
+}
+
+@media screen and (max-width:1024px) {
+	#references article h2 { font-size: 16pt; }
+	#references article #R2007 div { width: 22%; }
+	#references article #R2010 div { width: 22%; }
+	#references article #R2013 div { width: 17%; }
+	#references article bloc_ref div p { font-size: 10pt; }	
+}
+@media screen and (max-width:768px) {
+	#references article h2 { font-size: 14pt; }
+	#references article h3 { height: 6px; }	
+}
+@media screen and (max-width:425px) {
+	#references article { width: 90%; }
+	#references article bloc_ref div { width: 100%; margin: 5px auto 5px auto; }
+	#references article #R2007 div { width: 100%; }
+	#references article #R2010 div { width: 100%; }
+	#references article #R2013 div { width: 100%; }	
+}
